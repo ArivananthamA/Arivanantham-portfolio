@@ -9,6 +9,10 @@
   display: flex;
 }
 
+* {
+  font-family: 'Times New Roman', Times, serif;
+}
+
 /* setup tooltips */
 .tooltip {
   position: relative;
@@ -100,4 +104,15 @@ li {
   cursor: pointer; 
   display: inline-block; 
   padding: 0 10px;
+}
+
+.vc-text-5 {
+  text-decoration: none;
+ -webkit-text-fill-color: transparent;
+ -webkit-text-stroke: thin #fff;
+  font-size:  15px !important;
+  font-family: arial, sans-serif;
+}
+.vc-text-5:hover {
+ -webkit-text-fill-color: #000;
 }
